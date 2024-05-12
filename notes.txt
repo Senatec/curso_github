@@ -147,3 +147,76 @@ git checkout nome_aquivo.extenção
                          |
                          |
 git stash (Armazena temporariamente as mudanças em um diretório de trabalho)
+|------------------------------------------------------------------------------------------------------------------|
+
+ MAPA MIND ISSUE
+
+Issues no GitHub
+│
+├── Definição
+│   └── Registro de tarefas, bugs e solicitações de melhoria no projeto.
+│
+├── Uso
+│   └── Rastreamento de problemas e solicitações, comunicação entre colaboradores.
+│
+├── Comandos
+│   ├── create
+│   │   └── Cria uma nova issue.
+│   │       Exemplo: git issue create "Corrigir bug na página de login"
+│   ├── list
+│   │   └── Lista todas as issues.
+│   │       Exemplo: git issue list
+│   ├── close
+│   │   └── Fecha uma issue existente.
+│   │       Exemplo: git issue close 1
+│   ├── comment
+│   │   └── Adiciona um comentário a uma issue.
+│   │       Exemplo: git issue comment 1 "Testando a solução"
+│   ├── assign
+│   │   └── Atribui a issue a um usuário.
+│   │       Exemplo: git issue assign 1 @usuario
+│   └── label
+│       └── Adiciona uma label à issue.
+│           Exemplo: git issue label 1 "bug"
+│
+└── Exemplo Prático
+    ├── git issue create "Corrigir bug na página de login"
+    ├── git issue assign 1 @usuario
+    ├── git issue label 1 "bug"
+    ├── git issue comment 1 "Testando a solução"
+    └── git issue close 1
+
+
+|------------------------------------------------------------------------------------------------------------------|
+MAPA BRANCH
+
+Branches no Git
+  |
+  |-- Definição
+  |     |
+  |     |-- Linha independente de desenvolvimento
+  |     |-- Permite trabalhar em novas funcionalidades sem alterar o código principal
+  |
+  |-- Uso
+  |     |
+  |     |-- Desenvolvimento paralelo
+  |     |-- Experimentação de novas ideias
+  |     |-- Correção de bugs
+  |
+  |-- Operações
+  |     |
+  |     |-- Criar branch: git branch <nome_branch>
+  |     |-- Mudar de branch: git checkout <nome_branch>
+  |     |-- Criar e mudar para novo branch: git checkout -b <nome_branch>
+  |     |-- Listar branches: git branch
+  |     |-- Mesclar branches: git merge <nome_branch>
+  |     |-- Apagar branch: git branch -d <nome_branch>
+  |
+  |-- Fluxo de Trabalho
+        |
+        |-- Criar branch a partir do branch principal: git checkout -b <novo_branch> <branch_base>
+        |-- Implementar alterações no novo branch
+        |-- Mesclar alterações de volta ao branch principal: git checkout <branch_principal> && git merge <novo_branch>
+
+
+
