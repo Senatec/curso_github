@@ -2,4 +2,6 @@ function login(name){
     return name;
 }
 
-console.log("reste");
+console.log("teste");
+
+comando stash ordem 0
