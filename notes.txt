@@ -248,6 +248,6 @@ Git Stash
     ├── git stash apply stash@{0}
     └── git stash drop stash@{0}
 
-
+o ID é dinamico sendo da ultima a alterção sem apartir o 0 Zero
 |------------------------------------------------------------------------------------------------------------------|
 
