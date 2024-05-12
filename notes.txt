@@ -218,5 +218,36 @@ Branches no Git
         |-- Implementar alterações no novo branch
         |-- Mesclar alterações de volta ao branch principal: git checkout <branch_principal> && git merge <novo_branch>
 
+|------------------------------------------------------------------------------------------------------------------|
 
+Git Stash
+│
+├── Explicação
+│   └── Comando para salvar temporariamente mudanças locais.
+│
+├── Subcomandos
+│   ├── git stash save "mensagem"
+│   │   └── Salva as mudanças atuais com uma mensagem descritiva.
+│   │       Exemplo: git stash save "Corrigindo bug na página de login"
+│   ├── git stash list
+│   │   └── Lista todas as stashes salvas.
+│   │       Exemplo: git stash list
+│   ├── git stash apply stash@{n}
+│   │   └── Aplica as mudanças de uma stash específica.
+│   │       Exemplo: git stash apply stash@{0}
+│   ├── git stash pop
+│   │   └── Aplica e remove a última stash da pilha.
+│   │       Exemplo: git stash pop
+│   └── git stash drop stash@{n}
+│       └── Remove uma stash específica da pilha.
+│           Exemplo: git stash drop stash@{0}
+│
+└── Exemplo Prático
+    ├── git stash save "Corrigindo bug na página de login"
+    ├── git stash list
+    ├── git stash apply stash@{0}
+    └── git stash drop stash@{0}
+
+
+|------------------------------------------------------------------------------------------------------------------|
 
