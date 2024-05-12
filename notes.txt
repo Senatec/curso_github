@@ -49,5 +49,8 @@ GIT RESET
 git reset --hard origin/main 
 
 |------------------------------------------------------------------------------------------------------------------|
+CHECKOUT  
+- Busca a ultma versão do aquivo no repositório
 
+git checkout nome_aquivo.extenção
 
