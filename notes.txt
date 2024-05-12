@@ -36,3 +36,10 @@ MUDANDO A BRANCH
  git checkout -b {nome_da_branch}
 
 |------------------------------------------------------------------------------------------------------------------|
+GITIGNORE
+Arquivo criado .gitigone na raiz do projeto para não enviar os arquivos para github, listar Pastas e aquivos para
+não ser commitado no servidor
+
+.gitignore
+
+|------------------------------------------------------------------------------------------------------------------|
