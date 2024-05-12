@@ -54,3 +54,96 @@ CHECKOUT
 
 git checkout nome_aquivo.extenção
 
+|------------------------------------------------------------------------------------------------------------------|
+                     COMANDOS GIT
+
+                         |
+                         |
+                         |
+                 git init (Inicializa um repositório)
+                         |
+                         |
+                         |
+                git add (Adiciona arquivos ao índice)
+                         |
+                         |
+                         |
+           git commit -m "mensagem" (Confirma alterações com uma mensagem)
+                         |
+                         |
+                         |
+                git status (Verifica o status do repositório)
+               /      |     \
+              /       |      \
+             /        |       \
+  git log (Mostra o histórico de commits)   git diff (Mostra as diferenças entre arquivos)
+                         |
+                         |
+                         |
+        git checkout -b nome_da_branch (Cria e muda para uma nova branch)
+                         |
+                         |
+                         |
+       git merge branch_origem (Mescla uma branch com a branch atual)
+                         |
+                         |
+                         |
+     git push origin nome_da_branch (Envia commits para um repositório remoto)
+               /       |       \
+              /        |        \
+             /         |         \
+    git pull (Atualiza o repositório local com as alterações do remoto)
+           
+
+|------------------------------------------------------------------------------------------------------------------|
+
+                     COMANDOS GIT
+
+                         |
+                         |
+                         |
+                 git init (Inicializa um repositório)
+                         |
+                         |
+                         |
+                git add (Adiciona arquivos ao índice)
+                         |
+                         |
+                         |
+           git commit -m "mensagem" (Confirma alterações com uma mensagem)
+                         |
+                         |
+                         |
+                git status (Verifica o status do repositório)
+               /      |     \
+              /       |      \
+             /        |       \
+  git log (Mostra o histórico de commits)   git diff (Mostra as diferenças entre arquivos)
+                         |
+                         |
+                         |
+        git checkout -b nome_da_branch (Cria e muda para uma nova branch)
+                         |
+                         |
+                         |
+       git merge branch_origem (Mescla uma branch com a branch atual)
+                         |
+                         |
+                         |
+     git push origin nome_da_branch (Envia commits para um repositório remoto)
+               /       |       \
+              /        |        \
+             /         |         \
+    git pull (Atualiza o repositório local com as alterações do remoto)
+                         |
+                         |
+                         |
+     git reset --hard HEAD~N (Desfaz os últimos N commits)
+                         |
+                         |
+                         |
+       git rebase branch (Reorganiza o histórico de commits)
+                         |
+                         |
+                         |
+git stash (Armazena temporariamente as mudanças em um diretório de trabalho)
