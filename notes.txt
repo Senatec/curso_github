@@ -29,6 +29,10 @@ git shortlog - lista a descrição das mensagens dos commits
 git describe
 
  |------------------------------------------------------------------------------------------------------------------|
+MUDANDO A BRANCH
+- Com o git checkout você pode mudar de branch, caso a branch ainda não exista você poderá passar o parâmetro -b para
+ criar.
 
+ git checkout -b {nome_da_branch}
 
-
+|------------------------------------------------------------------------------------------------------------------|
